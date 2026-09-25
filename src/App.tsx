@@ -618,7 +618,7 @@ export default function App() {
         reader.readAsDataURL(capturedImage);
       });
 
-      const response = await fetch("/api/recognize", {
+      const response = await fetch("/api/recognise", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
